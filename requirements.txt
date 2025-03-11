@@ -1,9 +1,10 @@
 mkdocs>=1.1
 mkdocs-material>=5.1.6
-Pygments>=2.4
+Pygments>=2.15.0
 markdown>=3.2
-pymdown-extensions>=7.0
+pymdown-extensions>=10.0
 mkdocs-redirects==1.0.0
 mkdocs-minify-plugin>=0.2.3
 mkdocs-htmlproofer-plugin>=0.0.3
 git+git://github.com/cmitu/mkdocs-altlink-plugin.git
+jinja2>=3.1.6 # not directly required, pinned by Snyk to avoid a vulnerability
